@@ -1,9 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ data }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-sm text-white">test</h1>
+        <h1 className="text-sm text-white">This is my boilerplate</h1>
       </main>
     </div>
   );

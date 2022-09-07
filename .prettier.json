@@ -1,8 +1,12 @@
 {
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "printWidth": 80,
+  "semi": false,
+  "[typescript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
   "tabWidth": 2,
+  "printWidth": 125,
   "singleQuote": true,
-  "arrowParens": "always"
+  "trailingComma": "none",
+  "jsxBracketSameLine": true
 }
